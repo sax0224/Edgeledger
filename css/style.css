@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+#navbar {
+    display: flex;
+    background: #333;
+    color: #fff;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.text-primary {
+    color:#93cb52;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    color:#fff; 
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+#showcase {
+    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+    color:#fff;
+    height: 100vh;
+    position: relative;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: #93cb52;
+    color:#fff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    background: #7ab436;
+}
+
+.btn-dark {
+    background: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1; 
+}
+
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+
+.p-1 { padding: 1.5rem;}
+.p-2 { padding: 2rem;}
+.p-3 { padding: 3rem;}
+
+
+.container {
+    margin: auto;
+}
+
+#what .items {
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+.list li {
+    border-bottom: 1px dotted #444;
+    padding: 0.5rem 0;
+}
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.bg-primary {
+    background: #93cb52;
+    color: #fff;
+}
+
+#contact {
+    display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
